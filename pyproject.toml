@@ -1,0 +1,16 @@
+[project]
+name = 'qr-generator'
+version = "0.1.0"
+description = "An all use tool to create QR codes based on any type of input"
+authors = [{name = 'JohnS300', email = 'outofcontext@gmail.com'}]
+readme = "README.md"
+# homepage = "https://github.com/JohnS300/QR_generator"
+license = { file = "LICENSE" }
+dependencies = [
+  "qrcode[pil]",
+  "pyperclip",
+  "pillow",
+]
+
+[project.scripts]
+qrgen = "qr_generator.cli:main"
