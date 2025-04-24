@@ -1,0 +1,4 @@
+# requirements.txt
+qrcode[pil]
+pyperclip
+pillow
