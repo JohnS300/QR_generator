@@ -1,0 +1,7 @@
+# requirements-dev.txt
+-r requirements.txt
+mypy
+ruff
+pytest
+types-pyperclip
+types-Pillow
